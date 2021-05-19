@@ -29,6 +29,6 @@ switch (true) {
     case (age >=17 && age <=120): console.log(name + " darf Wein trinken");
         break;
     default:
-        console.log("Etwas stimmt nicht");
+        console.log("Etwas stimmt nicht, Eingabe war nich richtig!");
         break;
 }
