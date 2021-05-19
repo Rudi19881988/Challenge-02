@@ -21,11 +21,13 @@ let age = parseInt(prompt("Bitte alter eingeben"));
 
 switch (true) {
     case (age >=0 && age <=5): console.log(name + " darf Milch trinken");
+        break;
     case (age >=6 && age <=12): console.log(name + " darf saft trinken");
+        break;
     case (age >=13 && age <=17): console.log(name + " darf Cola trinken");
+        break;    
     case (age >=17 && age <=120): console.log(name + " darf Wein trinken");
         break;
-
     default:
         console.log("Etwas stimmt nicht");
         break;
