@@ -16,6 +16,8 @@ Alter 13-17 // Cola
 
 /* Getränke-Challenge */
 
+//Beispiel 1
+/*
 let name = prompt("Bitte Namen eingeben:");
 let age = parseInt(prompt("Bitte alter eingeben"));
 
@@ -32,3 +34,34 @@ switch (true) {
         console.log(name + ", da stimmt etwas nicht!");
         break;
 }
+*/
+
+//Beispiel 2
+/*
+let vorname = prompt("Bitte Vorname eingeben:");
+
+while (isNaN(vorname) == false)
+ {
+    vorname = prompt("Bitte Vorname eingeben");
+}
+
+let age = parseInt(prompt("Bitte alter eingeben:"));
+
+while (isNaN(age) || age >= 120)
+ {
+    age = prompt("Bitte geben Sie das richtige Alter ein")
+}
+switch (true) 
+{
+    case (age >=0 && age <=5): console.log(vorname + " darf Milch trinken.");
+    break;
+    case (age >=6 && age <=12): console.log(vorname +" darf Saft trinken.");
+    break;
+    case (age >=13 && age <=17): console.log(vorname + " darf Cola trinken.");
+    break;
+    case (age > 17): console.log(vorname + " darf Wein trinken.");
+    break;
+    default: console.log("?!?");
+    break;
+};
+*/
